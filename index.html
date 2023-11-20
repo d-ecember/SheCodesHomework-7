@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<h1>, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="src/index.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Weather App</title>
   </head>
   <body>
     <div class="weatherApp">
-    <form class="searchCity" id="searchCity">
-      <input type="search" placeholder="Enter a city ..." required id="searchForm" class="searchFormInput"/>
-      <input type="submit" value="Search" class="searchFormButton" />
-    </form>
-    <main>
-    <div class="weather-app-data">
-    <div>
-        <h1 class="weatherAppCity" id="currentCity">London</h1>
-    <p class="weatherAppDetails">Monday 10:08, broken clouds </br>
-        Humidity: <strong>83%</strong>, Wind: <strong>7.2 km/h</strong>/h</p>
-    </div>
-        <div class="weatherAppTemperatureContainer"> 
-        <div class="weatherAppIcon">☀️</div>
-        <div class="weaterAppTemperature" id="temperature">12</div>
-        <div class="weatherAppUnit">°C</div>
+      <form class="searchCity" id="city">
+        <input
+          type="search"
+          placeholder="Enter a city ..."
+          required
+          id="searchForm"
+          class="searchFormInput"
+        />
+        <input type="submit" value="Search" class="searchFormButton" />
+      </form>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weatherAppCity" id="currentCity">London</h1>
+            <p class="weatherAppDetails">
+              Monday 10:08, broken clouds <br />
+              Humidity: <strong>83%</strong>, Wind: <strong>7.2 km/h</strong>/h
+            </p>
+          </div>
+          <div class="weatherAppTemperatureContainer">
+            <div class="weatherAppIcon">☀️</div>
+            <div class="weaterAppTemperature" id="temperature">12</div>
+            <div class="weatherAppUnit">°C</div>
+          </div>
+        </div>
+      </main>
 
-    
+      <footer>
+        This project was code by
+        <a href="https://github.com/d-ecember" target="_blank">Emily</a> is
+        <a
+          href="https://github.com/d-ecember/SheCodesHomework-7"
+          target="_blank"
+          >open-source on GitHub</a
+        >
+        and
+        <a href="https://shecodeshomework7.netlify.app/" target="_blank"
+          >hosted by Netlify</a
+        >
+      </footer>
     </div>
-    </div>
-    </main>
-    
-<footer>
-    This project was code by <a href="https://github.com/d-ecember" target="_blank">Emily</a>
-    is <a href="https://github.com/d-ecember/SheCodesHomework-7" target="_blank">open-source on GitHub</a>
-    and 
-    <a href="https://shecodeshomework7.netlify.app/" target="_blank">hosted by Netlify</a>
-</div>
-</footer>
-<script src="src/index.js"></script>
-
+    <script src="src/index.js"></script>
   </body>
-
 </html>
