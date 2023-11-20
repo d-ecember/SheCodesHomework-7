@@ -12,16 +12,27 @@
   </head>
   <body>
     <div class="weatherApp">
-    <form>
-      <input type="search" placeholder="Enter a city ..." />
-      <input type="submit" value="Search" />
+    <form class="searchCity">
+      <input type="search" placeholder="Enter a city ..." required class="searchFormInput"/>
+      <input type="submit" value="Search" class="searchFormButton" />
     </form>
+    <main>
+    <div class="weather-app-data">
     <div>
-    <h1>London</h1>
-    <p>Monday 10:08, broken clouds </br>
-        Humidity: 83%, Wind: 7.2km/h</p>
+        <h1 class="weatherAppCity">London</h1>
+    <p class="weatherAppDetails">Monday 10:08, broken clouds </br>
+        Humidity: <strong>83%</strong>, Wind: <strong>7.2 km/h</strong>/h</p>
     </div>
-        <div>12°</div>
+        <div class="weatherAppTemperatureContainer"> 
+        <div class="weatherAppIcon">☀️</div>
+        <div class="weaterAppTemperature">12</div>
+        <div class="weatherAppUnit">°C</div>
+
+    
+    </div>
+    </div>
+    </main>
+    
 <footer>
     This project was code by <a href="https://github.com/d-ecember" target="_blank">Emily</a>
     is <a href="https://github.com/d-ecember/SheCodesHomework-7" target="_blank">open-source on GitHub</a>
