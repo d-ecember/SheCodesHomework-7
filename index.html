@@ -31,12 +31,15 @@
           <div>
             <h1 class="weatherAppCity" id="currentCity">London</h1>
             <p class="weatherAppDetails">
-              Monday 10:08, broken clouds <br />
-              Humidity: <strong>83%</strong>, Wind: <strong>7.2 km/h</strong>/h
+              <span id="time"></span>
+              <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind"></strong>
             </p>
           </div>
           <div class="weatherAppTemperatureContainer">
-            <div class="weatherAppIcon">☀️</div>
+            <div class="weatherAppIcon" id="icon"></div>
             <div class="weaterAppTemperature" id="temperature">12</div>
             <div class="weatherAppUnit">°C</div>
           </div>
