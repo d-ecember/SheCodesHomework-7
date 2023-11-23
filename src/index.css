@@ -70,24 +70,24 @@ main {
   margin-top: 16px;
   font-size: 28px;
 }
-.weatherForecast {
+.weather-forecast {
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
 }
-.weatherForecastDate {
+.weather-forecast-date {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
 }
-.weatherForecasteTemperature {
+.weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: gray;
   margin-top: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .weatherForecasteTemperatureMin {
